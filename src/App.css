@@ -436,3 +436,53 @@
     max-width: none;
   }
 }
+
+/* JSON Preview */
+.json-preview {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  padding: 20px;
+  border-radius: 8px;
+  overflow: auto;
+  max-height: 500px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0;
+  white-space: pre;
+}
+
+/* Scrollbar styling for JSON preview */
+.json-preview::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+.json-preview::-webkit-scrollbar-track {
+  background: #2d2d30;
+  border-radius: 8px;
+}
+
+.json-preview::-webkit-scrollbar-thumb {
+  background: #4a4a4a;
+  border-radius: 8px;
+}
+
+.json-preview::-webkit-scrollbar-thumb:hover {
+  background: #5a5a5a;
+}
+
+.btn-unsaved {
+  background-color: #007AFF !important;
+  color: white !important;
+  border-color: #007AFF !important;
+}
+
+.btn-unsaved:hover {
+  background-color: #0051D5 !important;
+  border-color: #0051D5 !important;
+}
+
+.btn-unsaved .btn-icon {
+  filter: brightness(0) invert(1); /* Makes emoji white */
+}

@@ -98,8 +98,9 @@ function App() {
           }}
           options={{
             displayMode: 'email',
+            
             customJS: [
-              'https://gist.githack.com/SulimanIbrahim/646744c47951c073d0aa154610ea5208/raw/2cadb4c939a048ad3ba65e4a4aa7391f09c0bf4e/custom.js'
+              'https://gist.githack.com/SulimanIbrahim/646744c47951c073d0aa154610ea5208/raw/41852b8845f93cb5b0258cedc1b9e3abe1616211/custom.js'
             ]
           }}
         />
